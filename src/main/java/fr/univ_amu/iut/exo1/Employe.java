@@ -67,7 +67,7 @@ public class Employe {
     }
 
     public double getSalaireBrut() {
-        return this.getBase() * this.getNbHeures();
+        return (this.getBase() * this.getNbHeures()) + 100;
     }
 
     public double getSalaireNet() {
